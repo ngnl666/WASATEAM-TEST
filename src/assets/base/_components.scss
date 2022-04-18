@@ -1,0 +1,43 @@
+.sticker {
+  width: 50%;
+  margin: 0 auto;
+
+  &__icon {
+    position: relative;
+    width: 160px;
+    height: 70px;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px 10px 10px -90px;
+    background-color: #fcf59b;
+    border-radius: 0px 10px 250px / 0 200px 55px 250px;
+    box-shadow: -3px 5px 12px 0 var(--sticker-box-shadow);
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      right: 8px;
+      bottom: 1px;
+      border-top: 10px solid rgb(156, 166, 61);
+      border-right: 10px solid transparent;
+      transform: skew(-55deg, 10deg);
+    }
+  }
+
+  &__text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+.input__label {
+  font-size: 1.75rem;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--color-secondary);
+}

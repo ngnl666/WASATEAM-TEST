@@ -1,0 +1,19 @@
+html {
+  --color-primary: rgb(246, 247, 248);
+  --color-primary-dark: #e0e0e0;
+  --color-secondary: grey;
+  --color-secondary-light: #f0f0f0;
+  --white: #fff;
+  --blue: rgb(100, 102, 233);
+  --box-shadow: rgba(50, 50, 50, 0.83);
+  --sticker-box-shadow: rgba(0, 0, 0, 0.3);
+  --radio-label-color: #000;
+}
+
+html[data-theme="dark"] {
+  --color-primary: #121212;
+  --color-primary-dark: gray;
+  --color-secondary: #fff;
+  --box-shadow: #e0e0e0;
+  --radio-label-color: #f0f0f0;
+}
