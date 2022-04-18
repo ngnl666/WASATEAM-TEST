@@ -10,7 +10,7 @@
 5. 在 props 進來時會進行型別＆數值檢查，以免 props 傳入不符合預期 
 ![wasateam](https://firebasestorage.googleapis.com/v0/b/v-note-86a34.appspot.com/o/scenes%2F%E6%88%AA%E5%9C%96%202022-04-18%20%E4%B8%8B%E5%8D%889.41.05.png?alt=media&token=270a7610-33b4-4b23-b94f-7451dfdf51cc)
 6. 在只使用 v-model＆props 就能做到的前提下，省去使用 vuex 來管理資料狀態，讓資料只在有限的範圍內操作，在除錯時也好下手
-
+7. 使用 eslint 來控管團隊程式碼撰寫風格，且也符合 vue 官方設計規範
 ## Project setup
 ```
 npm install
